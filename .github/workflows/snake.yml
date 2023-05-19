@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 16
 
-      - name: Generate Snake Game
+      - name: generate-snake-game-from-github-contribution-grid
         uses: Platane/snk@v2.2.1
         with:
           github_user_name: C0MPL3Xscs
