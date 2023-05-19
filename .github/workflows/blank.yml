@@ -1,0 +1,19 @@
+name: Generate Snake Game
+
+on:
+  push:
+    branches:
+      - main  # Replace with your branch name if necessary
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Generate Snake Game
+        uses: Platane/snk@v2.2.1
+        with:
+          github_user_name: C0MPL3Xscs
